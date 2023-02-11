@@ -1,0 +1,15 @@
+{
+  "test": [
+    {
+      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+      "book_name": "test2",
+      "author": "test2",
+      "genre": "fiction",
+      "edition": "2022",
+      "publisher": "test pub2",
+      "cost": 345,
+      "borrowed": true,
+      "id": 2
+    }
+  ]
+}
