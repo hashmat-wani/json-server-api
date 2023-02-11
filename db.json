@@ -46,7 +46,18 @@
       "category": "lifestyle",
       "date": "2023-02-06",
       "likes": 1,
-      "comments": [],
+      "comments": [
+        {
+          "username": "Test username",
+          "content": "Good One",
+          "avatar": "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg"
+        },
+        {
+          "username": "Test username2",
+          "content": "Loved It!",
+          "avatar": "https://www.w3schools.com/howto/img_avatar2.png"
+        }
+      ],
       "id": 2
     },
     {
