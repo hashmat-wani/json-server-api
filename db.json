@@ -193,5 +193,11 @@
       "id": 10
     }
   ],
-  "todos": []
+  "todos": [
+    {
+      "title": "Learn redux",
+      "status": false,
+      "id": 1
+    }
+  ]
 }
