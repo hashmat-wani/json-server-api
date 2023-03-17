@@ -1,203 +1,334 @@
 {
-  "users": [
+  "products": [
     {
-      "userName": "User 1",
-      "avatar": "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg",
-      "email": "user1@gmail.com",
-      "password": "user1",
-      "id": 1
+      "id": 1,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/black-polo-men.png",
+      "name": "Black Polo",
+      "type": "Polo",
+      "price": 250,
+      "currency": "INR",
+      "color": "Black",
+      "gender": "Men",
+      "quantity": 3
     },
     {
-      "userName": "User 2",
-      "avatar": "https://www.w3schools.com/howto/img_avatar2.png",
-      "email": "user2@gmail.com",
-      "password": "user2",
-      "id": 2
+      "id": 2,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/blue-polo-women.png",
+      "name": "Blue Polo",
+      "type": "Polo",
+      "price": 350,
+      "currency": "INR",
+      "color": "Blue",
+      "gender": "Women",
+      "quantity": 3
     },
     {
-      "userName": "User 3",
-      "avatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "email": "user3@gmail.com",
-      "password": "user3",
-      "id": 3
+      "id": 3,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/pink-polo-women.png",
+      "name": "Pink Polo",
+      "type": "Polo",
+      "price": 350,
+      "currency": "INR",
+      "color": "Pink",
+      "gender": "Women",
+      "quantity": 6
     },
     {
-      "userName": "User 4",
-      "avatar": "https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375__340.png",
-      "email": "user4@gmail.com",
-      "password": "user4",
-      "id": 4
+      "id": 4,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/black-hoodie-men.png",
+      "name": "Black Hoodie",
+      "type": "Hoodie",
+      "price": 500,
+      "currency": "INR",
+      "color": "Black",
+      "gender": "Men",
+      "quantity": 2
     },
     {
-      "userName": "User 5",
-      "avatar": "https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584__340.png",
-      "email": "user5@gmail.com",
-      "password": "user5",
-      "id": 5
-    }
-  ],
-  "blogs": [
-    {
-      "userName": "User 1",
-      "userAvatar": "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg",
-      "title": "User1 Blog",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, ",
-      "category": "Business",
-      "date": "2023-02-09",
-      "likes": 3,
-      "comments": [
-        {
-          "username": "User 2",
-          "content": "Good One",
-          "avatar": "https://www.w3schools.com/howto/img_avatar2.png"
-        },
-        {
-          "username": "User 3",
-          "content": "Loved It!",
-          "avatar": "https://www.w3schools.com/w3images/avatar2.png"
-        }
-      ],
-      "id": 1
+      "id": 5,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/green-polo-men.png",
+      "name": "Green Polo",
+      "type": "Polo",
+      "price": 250,
+      "currency": "INR",
+      "color": "Green",
+      "gender": "Men",
+      "quantity": 1
     },
     {
-      "userName": "User 2",
-      "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
-      "title": "User2 Blog",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, ",
-      "category": "lifestyle",
-      "date": "2023-02-06",
-      "likes": 1,
-      "comments": [
-        {
-          "username": "User 4",
-          "content": "Good One",
-          "avatar": "https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375__340.png"
-        },
-        {
-          "username": "User 3",
-          "content": "Loved It!",
-          "avatar": "https://www.w3schools.com/w3images/avatar2.png"
-        }
-      ],
-      "id": 2
+      "id": 6,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/green-polo-women.png",
+      "name": "Green Polo",
+      "type": "Polo",
+      "price": 350,
+      "currency": "INR",
+      "color": "Green",
+      "gender": "Women",
+      "quantity": 1
     },
     {
-      "userName": "User 3",
-      "userAvatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "title": "User3 Blog",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, ",
-      "category": "lifestyle",
-      "date": "2023-01-06",
-      "likes": 0,
-      "comments": [],
-      "id": 3
+      "id": 7,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/blue-hoodie-women.png",
+      "name": "Blue Hoodie",
+      "type": "Hoodie",
+      "price": 500,
+      "currency": "INR",
+      "color": "Blue",
+      "gender": "Women",
+      "quantity": 2
     },
     {
-      "userName": "User 4",
-      "userAvatar": "https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375__340.png",
-      "title": "User4 Blog",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, ",
-      "category": "tech",
-      "date": "2023-02-11",
-      "likes": 0,
-      "comments": [],
-      "id": 4
+      "id": 8,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/black-hoodie-women.png",
+      "name": "Black Hoodie",
+      "type": "Hoodie",
+      "price": 500,
+      "currency": "INR",
+      "color": "Black",
+      "gender": "Women",
+      "quantity": 5
     },
     {
-      "userName": "User 5",
-      "userAvatar": "https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584__340.png",
-      "title": "User5 Blog",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, ",
-      "category": "lifestyle",
-      "date": "2023-02-12",
-      "likes": 0,
-      "comments": [],
-      "id": 5
-    },
-
-    {
-      "userName": "User 1",
-      "userAvatar": "https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg",
-      "title": "User1 Blog2",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, ",
-      "category": "tech",
-      "date": "2022-02-09",
-      "likes": 3,
-      "comments": [],
-      "id": 6
+      "id": 9,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/blue-round-men.png",
+      "name": "Blue Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "Blue",
+      "gender": "Men",
+      "quantity": 2
     },
     {
-      "userName": "User 2",
-      "userAvatar": "https://www.w3schools.com/howto/img_avatar2.png",
-      "title": "User2 Blog2",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, ",
-      "category": "lifestyle",
-      "date": "2023-02-01",
-      "likes": 7,
-      "comments": [
-        {
-          "username": "User 4",
-          "content": "Good One",
-          "avatar": "https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375__340.png"
-        },
-        {
-          "username": "User 3",
-          "content": "Loved It!",
-          "avatar": "https://www.w3schools.com/w3images/avatar2.png"
-        }
-      ],
-      "id": 7
+      "id": 10,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/red-round-women.png",
+      "name": "Red Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "Red",
+      "gender": "Women",
+      "quantity": 2
     },
     {
-      "userName": "User 3",
-      "userAvatar": "https://www.w3schools.com/w3images/avatar2.png",
-      "title": "User3 Blog2",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, ",
-      "category": "entertainment",
-      "date": "2023-02-04",
-      "likes": 76,
-      "comments": [],
-      "id": 8
+      "id": 11,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/grey-round-men.png",
+      "name": "Grey Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "Grey",
+      "gender": "Men",
+      "quantity": 1
     },
     {
-      "userName": "User 4",
-      "userAvatar": "https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375__340.png",
-      "title": "User4 Blog2",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, ",
-      "category": "tech",
-      "date": "2023-01-30",
-      "likes": 101,
-      "comments": [],
-      "id": 9
+      "id": 12,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/purple-hoodie-women.png",
+      "name": "Purple Hoodie",
+      "type": "Hoodie",
+      "price": 500,
+      "currency": "INR",
+      "color": "Purple",
+      "gender": "Women",
+      "quantity": 3
     },
     {
-      "userName": "User 5",
-      "userAvatar": "https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584__340.png",
-      "title": "User5 Blog2",
-      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, ",
-      "category": "business",
-      "date": "2023-02-07",
-      "likes": 29,
-      "comments": [
-        {
-          "username": "User 2",
-          "content": "Awesome",
-          "avatar": "https://www.w3schools.com/howto/img_avatar2.png"
-        },
-        {
-          "username": "User 3",
-          "content": "wow!",
-          "avatar": "https://www.w3schools.com/w3images/avatar2.png"
-        }
-      ],
-      "id": 10
-    }
-  ],
-  "todos": [
+      "id": 13,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/grey-round-women.png",
+      "name": "Grey Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "Grey",
+      "gender": "Women",
+      "quantity": 1
+    },
     {
-      "title": "Learn redux",
-      "status": false,
-      "id": 1
+      "id": 14,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/white-round-women.png",
+      "name": "White Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "White",
+      "gender": "Women",
+      "quantity": 0
+    },
+    {
+      "id": 15,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/black-round-men.png",
+      "name": "Black Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "Black",
+      "gender": "Men",
+      "quantity": 7
+    },
+    {
+      "id": 16,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/purple-round-men.png",
+      "name": "Purple Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "Purple",
+      "gender": "Men",
+      "quantity": 1
+    },
+    {
+      "id": 17,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/white-round-men.png",
+      "name": "White Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "White",
+      "gender": "Men",
+      "quantity": 2
+    },
+    {
+      "id": 18,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/blue-round-women.png",
+      "name": "Blue Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "Blue",
+      "gender": "Women",
+      "quantity": 3
+    },
+    {
+      "id": 19,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/yellow-hoodie-women.png",
+      "name": "Yellow Hoodie",
+      "type": "Hoodie",
+      "price": 500,
+      "currency": "INR",
+      "color": "Yellow",
+      "gender": "Women",
+      "quantity": 1
+    },
+    {
+      "id": 20,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/white-polo-women.png",
+      "name": "White Polo",
+      "type": "Polo",
+      "price": 350,
+      "currency": "INR",
+      "color": "White",
+      "gender": "Women",
+      "quantity": 4
+    },
+    {
+      "id": 21,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/red-polo-men.png",
+      "name": "Red Polo",
+      "type": "Polo",
+      "price": 250,
+      "currency": "INR",
+      "color": "Red",
+      "gender": "Men",
+      "quantity": 2
+    },
+    {
+      "id": 22,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/blue-hoodie-men.png",
+      "name": "Blue Hoodie",
+      "type": "Hoodie",
+      "price": 500,
+      "currency": "INR",
+      "color": "Blue",
+      "gender": "Men",
+      "quantity": 0
+    },
+    {
+      "id": 23,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/grey-hoodie-men.png",
+      "name": "Grey Hoodie",
+      "type": "Hoodie",
+      "price": 500,
+      "currency": "INR",
+      "color": "Grey",
+      "gender": "Men",
+      "quantity": 2
+    },
+    {
+      "id": 24,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/grey-polo-men.png",
+      "name": "Grey Polo",
+      "type": "Polo",
+      "price": 300,
+      "currency": "INR",
+      "color": "Grey",
+      "gender": "Men",
+      "quantity": 3
+    },
+    {
+      "id": 25,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/red-hoodie-men.png",
+      "name": "Red Hoodie",
+      "type": "Hoodie",
+      "price": 300,
+      "currency": "INR",
+      "color": "Red",
+      "gender": "Men",
+      "quantity": 0
+    },
+    {
+      "id": 26,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/white-polo-men.png",
+      "name": "White Polo",
+      "type": "Polo",
+      "price": 300,
+      "currency": "INR",
+      "color": "White",
+      "gender": "Men",
+      "quantity": 1
+    },
+    {
+      "id": 27,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/white-hoodie-women.png",
+      "name": "White Hoodie",
+      "type": "Hoodie",
+      "price": 500,
+      "currency": "INR",
+      "color": "White",
+      "gender": "Women",
+      "quantity": 3
+    },
+    {
+      "id": 28,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/grey-round-men.png",
+      "name": "Grey Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "Grey",
+      "gender": "Men",
+      "quantity": 0
+    },
+    {
+      "id": 29,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/black-round-women.png",
+      "name": "Black Round",
+      "type": "Basic",
+      "price": 300,
+      "currency": "INR",
+      "color": "Black",
+      "gender": "Women",
+      "quantity": 0
+    },
+    {
+      "id": 30,
+      "imageURL": "https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/black-polo-women.png",
+      "name": "Black Polo",
+      "type": "Polo",
+      "price": 300,
+      "currency": "INR",
+      "color": "Black",
+      "gender": "Women",
+      "quantity": 4
     }
   ]
 }
